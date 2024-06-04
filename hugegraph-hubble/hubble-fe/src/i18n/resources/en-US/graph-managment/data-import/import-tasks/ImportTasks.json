@@ -1,342 +1,342 @@
 {
   "breadcrumb": {
-    "first": "导入任务",
-    "second": "任务详情"
+    "first": "Import Task",
+    "second": "Task Details"
   },
   "import-manager": {
     "hint": {
-      "empty-task": "您暂时还没有任何任务，立即创建",
-      "no-result": "无结果",
-      "creation-succeed": "创建成功",
-      "update-succeed": "编辑成功"
+      "empty-task": "You currently have no tasks, create one now",
+      "no-result": "No results",
+      "creation-succeed": "Creation successful",
+      "update-succeed": "Edit successful"
     },
     "manipulation": {
-      "create": "创建"
+      "create": "Create"
     },
     "placeholder": {
-      "input-job-name": "请输入任务名称搜索",
-      "input-valid-job-name": "允许出现中英文、数字、下划线",
-      "input-job-description": "请输入任务备注"
+      "input-job-name": "Please enter job name to search",
+      "input-valid-job-name": "Allowed characters: Chinese, English, numbers, and underscores",
+      "input-job-description": "Please enter job description"
     },
     "list-column-title": {
-      "job-name": "任务名称",
-      "size": "大小",
-      "create-time": "创建时间",
-      "status": "状态",
-      "time-consuming": "任务耗时",
-      "manipulation": "操作"
+      "job-name": "Job Name",
+      "size": "Size",
+      "create-time": "Creation Time",
+      "status": "Status",
+      "time-consuming": "Time Consuming",
+      "manipulation": "Actions"
     },
     "list-column-status": {
-      "DEFAULT": "未开始",
-      "UPLOADING": "未开始",
-      "MAPPING": "设置中",
-      "SETTING": "导入中",
-      "LOADING": "导入中",
-      "FAILED": "失败",
-      "SUCCESS": "成功"
+      "DEFAULT": "Not Started",
+      "UPLOADING": "Not Started",
+      "MAPPING": "Setting",
+      "SETTING": "Importing",
+      "LOADING": "Importing",
+      "FAILED": "Failed",
+      "SUCCESS": "Successful"
     },
     "list-column-manipulations": {
-      "start": "开始任务",
-      "resume-setting": "继续设置",
-      "resume-importing": "继续导入",
-      "check-error-log": "查看原因",
-      "delete": "删除"
+      "start": "Start Task",
+      "resume-setting": "Resume Setting",
+      "resume-importing": "Resume Importing",
+      "check-error-log": "Check Reason",
+      "delete": "Delete"
     },
     "modal": {
       "create-job": {
-        "title": "创建导入任务",
-        "job-name": "任务名称：",
-        "job-description": "任务备注："
+        "title": "Create Import Task",
+        "job-name": "Job Name:",
+        "job-description": "Job Description:"
       },
       "delete-job": {
-        "title": "删除任务",
-        "hint": "确认删除任务{{name}}吗?",
-        "sub-hint": "删除后该任务不可恢复"
+        "title": "Delete Task",
+        "hint": "Are you sure you want to delete the task {{name}}?",
+        "sub-hint": "This task cannot be recovered after deletion"
       },
       "manipulations": {
-        "create": "创建",
-        "delete": "删除",
-        "cancel": "取消"
+        "create": "Create",
+        "delete": "Delete",
+        "cancel": "Cancel"
       }
     },
     "validator": {
-      "no-empty": "此项为必填项",
-      "over-limit-size": "已超出字数限制",
-      "invalid-format": "请输入中英文、数字、下划线"
+      "no-empty": "This field is required",
+      "over-limit-size": "Exceeds character limit",
+      "invalid-format": "Please enter Chinese, English, numbers, or underscores"
     }
   },
   "import-job-details": {
     "tabs": {
-      "basic-settings": "基础设置",
-      "uploaded-files": "上传文件",
-      "data-maps": "映射文件",
-      "import-details": "导入详情"
+      "basic-settings": "Basic Settings",
+      "uploaded-files": "Uploaded Files",
+      "data-maps": "Mapping Files",
+      "import-details": "Import Details"
     },
     "basic": {
-      "job-name": "任务名称：",
-      "job-description": "任务备注：",
+      "job-name": "Job Name:",
+      "job-description": "Job Description:",
       "modal": {
         "edit-job": {
-          "title": "编辑导入任务",
-          "job-name": "任务名称：",
-          "job-description": "任务备注："
+          "title": "Edit Import Task",
+          "job-name": "Job Name:",
+          "job-description": "Job Description:"
         },
         "manipulations": {
-          "save": "保存",
-          "cancel": "取消"
+          "save": "Save",
+          "cancel": "Cancel"
         }
       }
     },
     "manipulations": {
-      "edit": "编辑",
-      "resume-task": "继续任务"
+      "edit": "Edit",
+      "resume-task": "Resume Task"
     }
   },
   "step": {
-    "first": "上传文件",
-    "second": "设置数据映射",
-    "third": "导入数据",
-    "fourth": "完成"
+    "first": "Upload Files",
+    "second": "Set Data Mapping",
+    "third": "Import Data",
+    "fourth": "Complete"
   },
   "upload-files": {
-    "click": "点击",
-    "description": "点击或将文件拖拽到此处上传，可同时上传多个支持csv文件，单个1G以内，单次累计10G以内",
-    "drag": "拖拽",
-    "description-1": "或将文件",
-    "description-2": "到此处上传，可同时上传多个支持csv文件，单个1G以内，单次累计10G以内",
-    "cancel": "取消上传",
-    "next": "下一步",
-    "wrong-format": "仅支持 csv 格式文件",
-    "over-single-size-limit": "容量已超过 1 GB",
-    "over-all-size-limit": "总容量已超过 10 GB",
-    "empty-file": "文件为空，请重新上传",
-    "no-duplicate": "下列上传的文件已存在："
+    "click": "Click",
+    "description": "Click or drag files here to upload. You can upload multiple csv files at the same time, each file should be within 1GB, total size within 10GB per upload",
+    "drag": "Drag",
+    "description-1": "or drag files",
+    "description-2": "here to upload. You can upload multiple csv files at the same time, each file should be within 1GB, total size within 10GB per upload",
+    "cancel": "Cancel Upload",
+    "next": "Next",
+    "wrong-format": "Only csv format files are supported",
+    "over-single-size-limit": "File size exceeds 1 GB",
+    "over-all-size-limit": "Total size exceeds 10 GB",
+    "empty-file": "File is empty, please re-upload",
+    "no-duplicate": "The following uploaded files already exist:"
   },
   "data-configs": {
     "file": {
-      "title": "文件设置",
-      "include-header": "包含表头",
+      "title": "File Settings",
+      "include-header": "Include Header",
       "delimiter": {
-        "title": "分隔符",
-        "comma": "逗号",
-        "semicolon": "分号",
-        "tab": "制表符",
-        "space": "空格",
-        "custom": "自定义"
+        "title": "Delimiter",
+        "comma": "Comma",
+        "semicolon": "Semicolon",
+        "tab": "Tab",
+        "space": "Space",
+        "custom": "Custom"
       },
       "code-type": {
-        "title": "编码格式",
+        "title": "Encoding Format",
         "UTF-8": "UTF-8",
         "GBK": "GBK",
         "ISO-8859-1": "ISO-8859-1",
         "US-ASCII": "US-ASCII",
-        "custom": "自定义"
+        "custom": "Custom"
       },
       "date-type": {
-        "title": "日期格式",
-        "custom": "自定义"
+        "title": "Date Format",
+        "custom": "Custom"
       },
-      "skipped-line": "跳过行",
-      "timezone": "时区",
-      "save": "保存",
+      "skipped-line": "Skipped Lines",
+      "timezone": "Time Zone",
+      "save": "Save",
       "placeholder": {
-        "input-delimiter": "请输入分隔符",
-        "input-charset": "请输入编码格式",
-        "input-date-format": "请输入日期格式"
+        "input-delimiter": "Please enter delimiter",
+        "input-charset": "Please enter encoding format",
+        "input-date-format": "Please enter date format"
       },
       "hint": {
-        "save-succeed": "已保存文件设置"
+        "save-succeed": "File settings saved"
       }
     },
     "type": {
-      "title": "类型设置",
-      "basic-settings": "基础设置",
+      "title": "Type Settings",
+      "basic-settings": "Basic Settings",
       "manipulation": {
-        "create": "创建",
-        "save": "保存",
-        "cancel": "取消",
-        "create-vertex": "创建顶点映射",
-        "create-edge": "创建边映射"
+        "create": "Create",
+        "save": "Save",
+        "cancel": "Cancel",
+        "create-vertex": "Create Vertex Mapping",
+        "create-edge": "Create Edge Mapping"
       },
       "info": {
-        "type": "类型",
-        "name": "名称",
-        "ID-strategy": "ID策略",
-        "edit": "编辑",
-        "delete": "删除"
+        "type": "Type",
+        "name": "Name",
+        "ID-strategy": "ID Strategy",
+        "edit": "Edit",
+        "delete": "Delete"
       },
       "ID-strategy": {
-        "PRIMARY_KEY": "主键ID",
-        "AUTOMATIC": "自动生成",
-        "CUSTOMIZE_STRING": "自定义字符串",
-        "CUSTOMIZE_NUMBER": "自定义数字",
-        "CUSTOMIZE_UUID": "自定义UUID"
+        "PRIMARY_KEY": "Primary Key ID",
+        "AUTOMATIC": "Automatic Generation",
+        "CUSTOMIZE_STRING": "Custom String",
+        "CUSTOMIZE_NUMBER": "Custom Number",
+        "CUSTOMIZE_UUID": "Custom UUID"
       },
       "vertex": {
-        "title": "创建顶点映射",
-        "type": "顶点类型",
-        "ID-strategy": "ID策略",
-        "ID-column": "ID列",
-        "map-settings": "映射设置",
+        "title": "Create Vertex Mapping",
+        "type": "Vertex Type",
+        "ID-strategy": "ID Strategy",
+        "ID-column": "ID Column",
+        "map-settings": "Mapping Settings",
         "add-map": {
-          "title": "添加映射",
-          "name": "列名",
-          "sample": "数据样例",
-          "property": "映射属性",
-          "clear": "清空"
+          "title": "Add Mapping",
+          "name": "Column Name",
+          "sample": "Data Sample",
+          "property": "Mapping Property",
+          "clear": "Clear"
         },
-        "select-all": "全选",
+        "select-all": "Select All",
         "advance": {
-          "title": "高级设置",
+          "title": "Advanced Settings",
           "nullable-list": {
-            "title": "空值列表",
-            "empty": "空值",
-            "custom": "自定义"
+            "title": "Null Value List",
+            "empty": "Null",
+            "custom": "Custom"
           },
           "map-property-value": {
-            "title": "属性值映射",
-            "add-value": "添加属性值映射",
+            "title": "Property Value Mapping",
+            "add-value": "Add Property Value Mapping",
             "fields": {
-              "property": "属性",
-              "value-map": "值映射",
-              "add-value-map": "添加值映射"
+              "property": "Property",
+              "value-map": "Value Map",
+              "add-value-map": "Add Value Map"
             }
           },
           "placeholder": {
-            "input": "请选择",
-            "input-property": "请选择输入属性",
-            "input-file-value": "请输入文件值",
-            "input-graph-value": "请输入图导入值"
+            "input": "Please select",
+            "input-property": "Please select input property",
+            "input-file-value": "Please enter file value",
+            "input-graph-value": "Please enter graph import value"
           }
         }
       },
       "edge": {
-        "title": "创建边映射",
-        "type": "边类型",
-        "source-ID-strategy": "起点ID策略",
-        "target-ID-strategy": "终点ID策略",
-        "ID-column": "ID列",
-        "map-settings": "映射设置",
+        "title": "Create Edge Mapping",
+        "type": "Edge Type",
+        "source-ID-strategy": "Source ID Strategy",
+        "target-ID-strategy": "Target ID Strategy",
+        "ID-column": "ID Column",
+        "map-settings": "Mapping Settings",
         "add-map": {
-          "title": "添加映射",
-          "name": "列名",
-          "sample": "数据样例",
-          "property": "映射属性",
-          "clear": "清空"
+          "title": "Add Mapping",
+          "name": "Column Name",
+          "sample": "Data Sample",
+          "property": "Mapping Property",
+          "clear": "Clear"
         },
-        "select-all": "全选",
+        "select-all": "Select All",
         "advance": {
-          "title": "高级设置",
+          "title": "Advanced Settings",
           "nullable-list": {
-            "title": "空值列表",
-            "empty": "空值",
-            "custom": "自定义"
+            "title": "Null Value List",
+            "empty": "Null",
+            "custom": "Custom"
           },
           "map-property-value": {
-            "title": "属性值映射",
-            "add-value": "添加  属性值映射",
+            "title": "Property Value Mapping",
+            "add-value": "Add Property Value Mapping",
             "fields": {
-              "property": "属性",
-              "value-map": "值映射",
-              "add-value-map": "添加值映射"
+              "property": "Property",
+              "value-map": "Value Map",
+              "add-value-map": "Add Value Map"
             }
           },
           "placeholder": {
-            "input": "请选择映射属性",
-            "input-property": "请选择输入属性",
-            "input-file-value": "请输入文件值",
-            "input-graph-value": "请输入图导入值"
+            "input": "Please select mapping property",
+            "input-property": "Please select input property",
+            "input-file-value": "Please enter file value",
+            "input-graph-value": "Please enter graph import value"
           }
         }
       },
       "hint": {
-        "lack-support-for-automatic": "自动生成的ID策略不支持可视化导入，请调用API实现",
-        "no-vertex-or-edge-mapping": "如下文件未设置顶点类型或边类型映射："
+        "lack-support-for-automatic": "Automatically generated ID strategy does not support visual import, please call API",
+        "no-vertex-or-edge-mapping": "The following files have not set vertex type or edge type mapping:"
       },
       "placeholder": {
-        "select-vertex-type": "请选择顶点类型",
-        "select-edge-type": "请选择边类型",
-        "select-id-column": "请选择 ID 列"
+        "select-vertex-type": "Please select vertex type",
+        "select-edge-type": "Please select edge type",
+        "select-id-column": "Please select ID column"
       }
     },
     "manipulations": {
-      "previous": "上一步",
-      "next": "下一步",
-      "add": "添加",
-      "edit": "编辑",
-      "delete": "删除",
-      "cancel": "取消",
+      "previous": "Previous",
+      "next": "Next",
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel",
       "hints": {
-        "delete-confirm": "确认删除？",
-        "warning": "删除后无法恢复，请谨慎操作"
+        "delete-confirm": "Confirm deletion?",
+        "warning": "Deletion cannot be undone, please proceed with caution"
       }
     },
     "validator": {
-      "no-empty": "该项不能为空"
+      "no-empty": "This field cannot be empty"
     }
   },
   "server-data-import": {
     "import-settings": {
-      "title": "导入设置",
-      "checkIfExist": "检查边连接的顶点是否存在",
-      "requestTimesWhenInterpolationFailed": "插入失败重试次数",
-      "maximumAnalyzedErrorRow": "允许最大解析错误行数",
-      "requestTicksWhenInterpolationFailed": "插入失败重试间隔/s",
-      "maxiumInterpolateErrorRow": "允许最大插入错误行数",
-      "InterpolationTimeout": "插入超时时间/s"
+      "title": "Import Settings",
+      "checkIfExist": "Check if the connected vertex exists",
+      "requestTimesWhenInterpolationFailed": "Retry times when insertion fails",
+      "maximumAnalyzedErrorRow": "Maximum allowable parsing error rows",
+      "requestTicksWhenInterpolationFailed": "Retry interval/s when insertion fails",
+      "maxiumInterpolateErrorRow": "Maximum allowable insertion error rows",
+      "InterpolationTimeout": "Insertion timeout/s"
     },
     "import-details": {
-      "title": "导入详情",
+      "title": "Import Details",
       "column-titles": {
-        "file-name": "文件名称",
-        "type": "类型",
-        "import-speed": "导入速度",
-        "import-progress": "导入进度",
-        "status": "状态",
-        "time-consumed": "耗时",
-        "manipulations": "操作"
+        "file-name": "File Name",
+        "type": "Type",
+        "import-speed": "Import Speed",
+        "import-progress": "Import Progress",
+        "status": "Status",
+        "time-consumed": "Time Consumed",
+        "manipulations": "Actions"
       },
       "content": {
-        "vertex": "顶点",
-        "edge": "边"
+        "vertex": "Vertex",
+        "edge": "Edge"
       },
       "status": {
-        "RUNNING": "运行中",
-        "SUCCEED": "成功",
-        "FAILED": "失败",
-        "PAUSED": "已暂停",
-        "STOPPED": "已终止"
+        "RUNNING": "Running",
+        "SUCCEED": "Succeeded",
+        "FAILED": "Failed",
+        "PAUSED": "Paused",
+        "STOPPED": "Stopped"
       },
       "manipulations": {
-        "pause": "暂停",
-        "resume": "继续",
-        "retry": "重试",
-        "abort": "终止",
-        "failed-cause": "查看原因"
+        "pause": "Pause",
+        "resume": "Resume",
+        "retry": "Retry",
+        "abort": "Abort",
+        "failed-cause": "View Reason"
       }
     },
     "hint": {
-      "check-vertex": "开启检查会影响导入性能，请按需开启",
-      "no-data": "正在请求导入",
-      "confirm-navigation": "确认跳转到任务列表？正在上传的文件可能会丢失"
+      "check-vertex": "Enabling check will affect import performance, please enable as needed",
+      "no-data": "Requesting import",
+      "confirm-navigation": "Confirm to navigate to the task list? Uploading files may be lost"
     },
     "validator": {
-      "no-empty": "该项不能为空",
-      "need-integer-with-negative": "请输入-1或大于0的整数",
-      "need-integer": "请输入大于0的整数"
+      "no-empty": "This field cannot be empty",
+      "need-integer-with-negative": "Please enter -1 or an integer greater than 0",
+      "need-integer": "Please enter an integer greater than 0"
     },
     "manipulations": {
-      "previous": "上一步",
-      "start": "开始导入",
-      "cancel": "取消导入",
-      "finished": "完成"
+      "previous": "Previous",
+      "start": "Start Import",
+      "cancel": "Cancel Import",
+      "finished": "Finished"
     }
   },
   "data-import-status": {
-    "finished": "导入完成",
-    "success": "已成功导入 {{number}} 个文件",
-    "pause": "{{number}} 个文件暂停",
-    "abort": "{{number}} 个文件终止",
-    "move-to-import-manager": "返回导入任务列表"
+    "finished": "Import Finished",
+    "success": "Successfully imported {{number}} files",
+    "pause": "{{number}} files paused",
+    "abort": "{{number}} files aborted",
+    "move-to-import-manager": "Return to import task list"
   }
 }

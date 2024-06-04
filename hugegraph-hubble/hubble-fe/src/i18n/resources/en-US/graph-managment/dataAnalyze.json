@@ -1,286 +1,286 @@
 {
   "data-analyze": {
     "category": {
-      "gremlin-analyze": "Gremlin 分析",
-      "algorithm-analyze": "算法分析"
+      "gremlin-analyze": "Gremlin Analysis",
+      "algorithm-analyze": "Algorithm Analysis"
     },
     "manipulations": {
-      "execution": "执行",
-      "favorite": "收藏",
-      "reset": "重置"
+      "execution": "Execute",
+      "favorite": "Favorite",
+      "reset": "Reset"
     },
     "algorithm-list": {
-      "title": "算法目录",
-      "loop-detection": "环路检测",
-      "focus-detection": "交点检测",
-      "shortest-path": "最短路径",
-      "shortest-path-all": "全最短路径",
-      "all-path": "全部路径",
-      "neighbor-rank-recommendation": "Neighbor Rank推荐算法",
-      "model-similarity": "模型相似度算法",
-      "real-time-recommendation": "实时推荐",
-      "k-step-neighbor": "k步邻居",
-      "k-hop": "k跳算法",
-      "custom-path": "自定义路径",
-      "custom-intersection-detection": "自定义交点检测",
-      "radiographic-inspection": "射线检测",
-      "common-neighbor": "共同邻居",
-      "weighted-shortest-path": "带权最短路径",
-      "single-source-weighted-path": "单源带权路径",
-      "jaccard-similarity": "Jaccard相似度",
-      "personal-rank-recommendation": "Personal Rank推荐算法"
+      "title": "Algorithm List",
+      "loop-detection": "Loop Detection",
+      "focus-detection": "Intersection Detection",
+      "shortest-path": "Shortest Path",
+      "shortest-path-all": "All Shortest Paths",
+      "all-path": "All Paths",
+      "neighbor-rank-recommendation": "Neighbor Rank Recommendation Algorithm",
+      "model-similarity": "Model Similarity Algorithm",
+      "real-time-recommendation": "Real-Time Recommendation",
+      "k-step-neighbor": "k-Step Neighbor",
+      "k-hop": "k-Hop Algorithm",
+      "custom-path": "Custom Path",
+      "custom-intersection-detection": "Custom Intersection Detection",
+      "radiographic-inspection": "Radiographic Inspection",
+      "common-neighbor": "Common Neighbor",
+      "weighted-shortest-path": "Weighted Shortest Path",
+      "single-source-weighted-path": "Single Source Weighted Path",
+      "jaccard-similarity": "Jaccard Similarity",
+      "personal-rank-recommendation": "Personal Rank Recommendation Algorithm"
     },
     "algorithm-forms": {
       "loop-detection": {
         "options": {
-          "source": "起点ID:",
-          "direction": "方向:",
-          "max_depth": "最大步数:",
-          "label": "边类型:",
-          "max_degree": "最大度数:",
-          "source_in_ring": "环路包含起点:",
-          "limit": "返回可达路径最大值:",
-          "capacity": "访问顶点最大值:"
+          "source": "Source ID:",
+          "direction": "Direction:",
+          "max_depth": "Max Depth:",
+          "label": "Edge Type:",
+          "max_degree": "Max Degree:",
+          "source_in_ring": "Include Source in Loop:",
+          "limit": "Max Reachable Paths:",
+          "capacity": "Max Accessed Vertices:"
         },
-        "pre-value": "全部",
+        "pre-value": "All",
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "no-edge-types": "无边类型"
+          "input-source-id": "Please enter the Source ID",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "no-edge-types": "No Edge Types"
         },
         "hint": {
-          "max-depth": "为保证性能，建议不超过10步，推荐5步",
-          "skip-degree": "填写查询过程中需要跳过的顶点的最小的边数目，即当顶点的边数目大于超级顶点度数时，跳过该顶点，可用于规避超级点"
+          "max-depth": "To ensure performance, it is recommended not to exceed 10 steps, preferably 5 steps",
+          "skip-degree": "Fill in the minimum number of edges to skip during the query process, that is, skip the vertex when the number of edges is greater than the super vertex degree. It can be used to avoid super nodes"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "integer-only": "请填写大于等于0的整数",
-          "postive-integer-only": "请填写大于0的整数"
+          "no-empty": "This field cannot be empty",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "postive-integer-only": "Please enter an integer greater than 0"
         }
       },
       "focus-detection": {
         "options": {
-          "source": "起点ID:",
-          "target": "终点ID:",
-          "direction": "方向:",
-          "max_depth": "最大步数:",
-          "label": "边类型:",
-          "max_degree": "最大度数:",
-          "limit": "访问顶点最大值:",
-          "capacity": "返回交点最大值:"
+          "source": "Source ID:",
+          "target": "Target ID:",
+          "direction": "Direction:",
+          "max_depth": "Max Depth:",
+          "label": "Edge Type:",
+          "max_degree": "Max Degree:",
+          "limit": "Max Accessed Vertices:",
+          "capacity": "Max Intersections:"
         },
-        "pre-value": "全部",
+        "pre-value": "All",
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-target-id": "请输入终点ID",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "no-edge-types": "无边类型"
+          "input-source-id": "Please enter the Source ID",
+          "input-target-id": "Please enter the Target ID",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "no-edge-types": "No Edge Types"
         },
         "hint": {
-          "max-depth": "为保证性能，建议不超过10步，推荐5步",
-          "skip-degree": "填写查询过程中需要跳过的顶点的最小的边数目，即当顶点的边数目大于超级顶点度数时，跳过该顶点，可用于规避超级点"
+          "max-depth": "To ensure performance, it is recommended not to exceed 10 steps, preferably 5 steps",
+          "skip-degree": "Fill in the minimum number of edges to skip during the query process, that is, skip the vertex when the number of edges is greater than the super vertex degree. It can be used to avoid super nodes"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "integer-only": "请填写大于等于0的整数",
-          "postive-integer-only": "请填写大于0的整数"
+          "no-empty": "This field cannot be empty",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "postive-integer-only": "Please enter an integer greater than 0"
         }
       },
       "shortest-path": {
         "options": {
-          "source": "起点ID:",
-          "target": "终点ID:",
-          "direction": "方向:",
-          "max_depth": "最大步数:",
-          "maxDepth": "最大步数:",
-          "label": "边类型:",
-          "max_degree": "最大度数:",
-          "maxDegree": "最大度数:",
-          "skip_degree": "超级顶点度数:",
-          "skipDegree": "超级顶点度数:",
-          "capacity": "访问顶点最大值:"
+          "source": "Source ID:",
+          "target": "Target ID:",
+          "direction": "Direction:",
+          "max_depth": "Max Depth:",
+          "maxDepth": "Max Depth:",
+          "label": "Edge Type:",
+          "max_degree": "Max Degree:",
+          "maxDegree": "Max Degree:",
+          "skip_degree": "Super Vertex Degree:",
+          "skipDegree": "Super Vertex Degree:",
+          "capacity": "Max Accessed Vertices:"
         },
-        "pre-value": "全部",
+        "pre-value": "All",
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-target-id": "请输入终点ID",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "no-edge-types": "无边类型"
+          "input-source-id": "Please enter the Source ID",
+          "input-target-id": "Please enter the Target ID",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "no-edge-types": "No Edge Types"
         },
         "hint": {
-          "max-depth": "为保证性能，建议不超过10步，推荐5步",
-          "skip-degree": "填写查询过程中需要跳过的顶点的最小的边数目，即当顶点的边数目大于超级顶点度数时，跳过该顶点，可用于规避超级点"
+          "max-depth": "To ensure performance, it is recommended not to exceed 10 steps, preferably 5 steps",
+          "skip-degree": "Fill in the minimum number of edges to skip during the query process, that is, skip the vertex when the number of edges is greater than the super vertex degree. It can be used to avoid super nodes"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "integer-only": "请填写大于等于0的整数",
-          "postive-integer-only": "请填写大于0的整数"
+          "no-empty": "This field cannot be empty",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "postive-integer-only": "Please enter an integer greater than 0"
         }
       },
       "shortest-path-all": {
         "options": {
-          "source": "起点ID:",
-          "target": "终点ID:",
-          "direction": "方向:",
-          "max_depth": "最大步数:",
-          "label": "边类型:",
-          "max_degree": "最大度数:",
-          "capacity": "访问顶点最大值:",
-          "skip_degree": "超级顶点度数:"
+          "source": "Source ID:",
+          "target": "Target ID:",
+          "direction": "Direction:",
+          "max_depth": "Max Depth:",
+          "label": "Edge Type:",
+          "max_degree": "Max Degree:",
+          "capacity": "Max Accessed Vertices:",
+          "skip_degree": "Super Vertex Degree:"
         },
-        "pre-value": "全部",
+        "pre-value": "All",
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-target-id": "请输入终点ID",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "no-edge-types": "无边类型"
+          "input-source-id": "Please enter the Source ID",
+          "input-target-id": "Please enter the Target ID",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "no-edge-types": "No Edge Types"
         },
         "hint": {
-          "max-depth": "为保证性能，建议不超过10步，推荐5步",
-          "skip-degree": "填写查询过程中需要跳过的顶点的最小的边数目，即当顶点的边数目大于超级顶点度数时，跳过该顶点，可用于规避超级点"
+          "max-depth": "To ensure performance, it is recommended not to exceed 10 steps, preferably 5 steps",
+          "skip-degree": "Fill in the minimum number of edges to skip during the query process, that is, skip the vertex when the number of edges is greater than the super vertex degree. It can be used to avoid super nodes"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "integer-only": "请填写大于等于0的整数",
-          "postive-integer-only": "请填写大于0的整数"
+          "no-empty": "This field cannot be empty",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "postive-integer-only": "Please enter an integer greater than 0"
         }
       },
       "all-path": {
         "options": {
-          "source": "起点ID:",
-          "target": "终点ID:",
-          "direction": "方向:",
-          "max_depth": "最大步数:",
-          "label": "边类型:",
-          "max_degree": "最大度数:",
-          "capacity": "访问顶点最大值:",
-          "limit": "返回路径最大值:"
+          "source": "Source ID:",
+          "target": "Target ID:",
+          "direction": "Direction:",
+          "max_depth": "Max Depth:",
+          "label": "Edge Type:",
+          "max_degree": "Max Degree:",
+          "capacity": "Max Accessed Vertices:",
+          "limit": "Max Returned Paths:"
         },
-        "pre-value": "全部",
+        "pre-value": "All",
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-target-id": "请输入终点ID",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "no-edge-types": "无边类型"
+          "input-source-id": "Please enter the Source ID",
+          "input-target-id": "Please enter the Target ID",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "no-edge-types": "No Edge Types"
         },
         "hint": {
-          "max-depth": "为保证性能，建议不超过10步，推荐5步",
-          "skip-degree": "填写查询过程中需要跳过的顶点的最小的边数目，即当顶点的边数目大于超级顶点度数时，跳过该顶点，可用于规避超级点"
+          "max-depth": "To ensure performance, it is recommended not to exceed 10 steps, preferably 5 steps",
+          "skip-degree": "Fill in the minimum number of edges to skip during the query process, that is, skip the vertex when the number of edges is greater than the super vertex degree. It can be used to avoid super nodes"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "integer-only": "请填写大于等于0的整数",
-          "postive-integer-only": "请填写大于0的整数"
+          "no-empty": "This field cannot be empty",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "postive-integer-only": "Please enter an integer greater than 0"
         }
       },
       "model-similarity": {
         "options": {
-          "method": "起点选择方式:",
-          "source": "起点ID:",
-          "vertex-type": "顶点类型",
-          "vertex-property": "顶点属性",
-          "direction": "方向:",
-          "least_neighbor": "最少邻居数:",
-          "similarity": "相似度:",
-          "label": "边类型:",
-          "max_similar": "相似度最高个数:",
-          "least_similar": "梭形相似点最小个数:",
-          "property_filter": "属性过滤:",
-          "least_property_number": "最小属性值个数:",
-          "max_degree": "最大度数:",
-          "capacity": "访问顶点最大值:",
-          "skip_degree": "返回顶点最大值:",
-          "limit": "返回结果最大值:",
-          "return_common_connection": "返回共同关联点:",
-          "return_complete_info": "返回顶点完整信息:"
+          "method": "Starting Point Selection Method:",
+          "source": "Starting Point ID:",
+          "vertex-type": "Vertex Type",
+          "vertex-property": "Vertex Property",
+          "direction": "Direction:",
+          "least_neighbor": "Minimum Number of Neighbors:",
+          "similarity": "Similarity:",
+          "label": "Edge Type:",
+          "max_similar": "Maximum Number of Highest Similarity:",
+          "least_similar": "Minimum Number of Similar Points:",
+          "property_filter": "Property Filter:",
+          "least_property_number": "Minimum Number of Property Values:",
+          "max_degree": "Maximum Degree:",
+          "capacity": "Maximum Number of Accessed Vertices:",
+          "skip_degree": "Maximum Number of Returned Vertices:",
+          "limit": "Maximum Number of Returned Results:",
+          "return_common_connection": "Return Common Connection Points:",
+          "return_complete_info": "Return Complete Vertex Information:"
         },
         "radio-value": {
-          "specific-id": "指定ID",
-          "filtered-type-property": "筛选类型属性"
+          "specific-id": "Specific ID",
+          "filtered-type-property": "Filtered Type Property"
         },
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-vertex-type": "请选择顶点类型",
-          "input-vertex-property": "请选择顶点属性",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "input-integer-gt-1": "请填写大于1的整数",
-          "input-filtered-property": "请选择需要过滤的属性",
-          "no-properties": "无属性",
-          "no-vertex-type": "无顶点类型"
+          "input-source-id": "Please enter the starting point ID",
+          "input-vertex-type": "Please select a vertex type",
+          "input-vertex-property": "Please select a vertex property",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "input-integer-gt-1": "Please enter an integer greater than 1",
+          "input-filtered-property": "Please select the property to filter",
+          "no-properties": "No properties",
+          "no-vertex-type": "No vertex type"
         },
         "hint": {
-          "least_property_number": "属性过滤和最小属性值个数需一起使用；设置后效果为：当起点跟其所有的梭形相似点某个属性的值大于等于最小属性值个数时，才会返回该起点及其梭形相似点",
-          "least_neighbor": "邻居数少于当前设定值，则认为起点没有梭形相似点",
-          "similarity": "起点与\"梭形相似点\"的共同邻居数目占起点的全部邻居数目的比例",
-          "max_similar": "返回起点的梭形相似点中相似度最高的top个数，0表示全部",
-          "return_common_connection": "是否返回起点及其\"梭形相似点\"共同关联的中间点"
+          "least_property_number": "Property filter and minimum number of property values must be used together. The effect is: when the value of a certain property of the starting point and all its similar points is greater than or equal to the minimum number of property values, the starting point and its similar points will be returned",
+          "least_neighbor": "If the number of neighbors is less than the current set value, the starting point is considered to have no similar points",
+          "similarity": "The proportion of the number of common neighbors between the starting point and its similar points to the total number of neighbors of the starting point",
+          "max_similar": "Returns the top number of similar points with the highest similarity to the starting point, 0 means all",
+          "return_common_connection": "Whether to return the intermediate points that are commonly connected to the starting point and its similar points"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "no-edge-typs": "无边类型",
-          "integer-only": "请填写大于等于0的整数",
-          "positive-integer-only": "请填写大于0的整数",
-          "integer-gt-1": "请填写大于1的整数"
+          "no-empty": "This item cannot be empty",
+          "no-edge-typs": "No edge type",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "positive-integer-only": "Please enter an integer greater than 0",
+          "integer-gt-1": "Please enter an integer greater than 1"
         },
-        "pre-value": "全部"
+        "pre-value": "All"
       },
       "neighbor-rank": {
         "options": {
-          "source": "起点ID:",
+          "source": "Starting Point ID:",
           "alpha": "Alpha",
-          "direction": "方向:",
-          "capacity": "访问顶点最大值:",
-          "label": "边类型:",
-          "degree": "最大度数:",
-          "top": "每层保留权重Top N:"
+          "direction": "Direction:",
+          "capacity": "Maximum Number of Accessed Vertices:",
+          "label": "Edge Type:",
+          "degree": "Maximum Degree:",
+          "top": "Top N Weights per Layer:"
         },
         "placeholder": {
-          "input-source-id": "请输入起点ID",
-          "input-integer": "请填写大于等于0的整数",
-          "input-positive-integer": "请填写大于0的整数",
-          "range": "范围(0-1]"
+          "input-source-id": "Please enter the starting point ID",
+          "input-integer": "Please enter an integer greater than or equal to 0",
+          "input-positive-integer": "Please enter an integer greater than 0",
+          "range": "Range (0-1]"
         },
         "hint": {
-          "top": "在结果中每一层只保留权重最高的N个结果"
+          "top": "In the results, only the top N results with the highest weights are retained in each layer"
         },
         "validations": {
-          "no-empty": "该项不能为空",
-          "no-edge-typs": "无边类型",
-          "range": "请填写大于0且小于等于1的数值",
-          "integer-only": "请填写大于等于0的整数",
-          "postive-integer-only": "请填写大于0的整数",
-          "input-chars": "规则不能其它重复"
+          "no-empty": "This item cannot be empty",
+          "no-edge-typs": "No edge type",
+          "range": "Please enter a value greater than 0 and less than or equal to 1",
+          "integer-only": "Please enter an integer greater than or equal to 0",
+          "postive-integer-only": "Please enter an integer greater than 0",
+          "input-chars": "Rules cannot repeat"
         },
-        "pre-value": "全部",
-        "add-new-rule": "添加规则"
+        "pre-value": "All",
+        "add-new-rule": "Add Rule"
       }
     },
     "exec-logs": {
       "table-title": {
-        "time": "时间",
-        "type": "执行类型",
-        "content": "执行内容",
-        "status": "状态",
-        "duration": "耗时",
-        "manipulation": "操作"
+        "time": "Time",
+        "type": "Execution Type",
+        "content": "Execution Content",
+        "status": "Status",
+        "duration": "Duration",
+        "manipulation": "Operation"
       },
       "type": {
-        "GREMLIN": "GREMLIN 查询",
-        "GREMLIN_ASYNC": "GREMLIN 任务",
-        "ALGORITHM": "算法查询"
+        "GREMLIN": "GREMLIN Query",
+        "GREMLIN_ASYNC": "GREMLIN Task",
+        "ALGORITHM": "Algorithm Query"
       },
       "status": {
-        "success": "成功",
-        "async-success": "提交成功",
-        "running": "运行中",
-        "failed": "失败",
-        "async-failed": "提交失败"
+        "success": "Success",
+        "async-success": "Submission Success",
+        "running": "Running",
+        "failed": "Failed",
+        "async-failed": "Submission Failed"
       }
     }
   }
